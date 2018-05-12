@@ -1,0 +1,26 @@
+{
+  "name": "example-egged-app",
+  "version": "1.0.0",
+  "description": "This is an example app egg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "update": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nioxed/Example-Egged-App.git"
+  },
+  "keywords": [
+    "Example"
+  ],
+  "author": "Nioxed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nioxed/Example-Egged-App/issues"
+  },
+  "homepage": "https://github.com/Nioxed/Example-Egged-App#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
