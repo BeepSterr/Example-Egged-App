@@ -12,6 +12,6 @@ rl.on('line', function(line) {
     if (line === "quit") rl.close();
     rl.prompt();
 }).on('close',function(){
-	console.log(chalk.red('Exiting!'));
+	console.log(chalk.red('Exited.'));
     process.exit();
 });
