@@ -4,7 +4,7 @@
   "description": "This is an example app egg",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "npm install; node index",
     "update": "npm install"
   },
   "repository": {
