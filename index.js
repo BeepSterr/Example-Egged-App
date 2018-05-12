@@ -13,5 +13,5 @@ rl.on('line', function(line) {
     rl.prompt();
 }).on('close',function(){
 	console.log(chalk.red('Exiting!'));
-    process.exit(0);
+    process.exit();
 });
